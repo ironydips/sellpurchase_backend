@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6214d193-ed5c-4a59-bd59-72f7c45a4767" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/_" afterPath="$PROJECT_DIR$/node_modules/_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/Brands.js" afterPath="$PROJECT_DIR$/lib/model/Brands.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/dao/adminDao.js" afterPath="$PROJECT_DIR$/lib/dao/adminDao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/dao/baseDao.js" afterPath="$PROJECT_DIR$/lib/dao/baseDao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/facade/adminFacade.js" afterPath="$PROJECT_DIR$/lib/facade/adminFacade.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/adminRoutes.js" afterPath="$PROJECT_DIR$/lib/routes/adminRoutes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/adminService.js" afterPath="$PROJECT_DIR$/lib/services/adminService.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +24,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="adminFacade.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/facade/adminFacade.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/services/adminService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="adminDao.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/dao/adminDao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="214">
+              <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -52,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Brands.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Brands.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/model/Brands.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="183">
+              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -82,44 +104,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="factorCategorieDao.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/dao/factorCategorieDao.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="baseDao.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/dao/baseDao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="165">
+              <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminRoutes.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="adminRoutes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/routes/adminRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
               <folding>
                 <element signature="e#856#1205#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resHandler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/resHandler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -136,6 +138,7 @@
       <find>find</find>
       <find>BRAND_INFO</find>
       <find>PROJECTION</find>
+      <find>remove</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,11 +159,12 @@
         <option value="$PROJECT_DIR$/lib/config/env/default.js" />
         <option value="$PROJECT_DIR$/node_modules/express/lib/express.js" />
         <option value="$PROJECT_DIR$/lib/routes/csfRoutes.js" />
+        <option value="$PROJECT_DIR$/lib/model/Brands.js" />
+        <option value="$PROJECT_DIR$/lib/routes/adminRoutes.js" />
         <option value="$PROJECT_DIR$/lib/facade/adminFacade.js" />
         <option value="$PROJECT_DIR$/lib/services/adminService.js" />
+        <option value="$PROJECT_DIR$/lib/dao/baseDao.js" />
         <option value="$PROJECT_DIR$/lib/dao/adminDao.js" />
-        <option value="$PROJECT_DIR$/lib/routes/adminRoutes.js" />
-        <option value="$PROJECT_DIR$/lib/model/Brands.js" />
       </list>
     </option>
   </component>
@@ -242,7 +246,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellpurchase_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellpurchase_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellpurchase_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellpurchase_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellpurchase_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellpurchase_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -448,12 +506,12 @@
       <updated>1491803930737</updated>
       <workItem from="1491803932309" duration="6583000" />
       <workItem from="1491971318150" duration="13569000" />
-      <workItem from="1492059660857" duration="5644000" />
+      <workItem from="1492059660857" duration="6719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25796000" />
+    <option name="totallyTimeSpent" value="26871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -767,6 +825,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484847944563" expanded="true" signature="3285:3356" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="3374:4977" ph="..." />
+            <marker date="1484847944563" expanded="false" signature="3403:3431" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="3433:4958" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="3451:3715" ph="..." />
+            <marker date="1484847944563" expanded="false" signature="3479:3554" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="3556:3696" ph="..." />
+            <marker date="1484847944563" expanded="false" signature="3586:3603" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="3733:4130" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="3752:4111" ph="..." />
+            <marker date="1484847944563" expanded="false" signature="3781:3868" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="3870:3914" ph="..." />
+            <marker date="1484847944563" expanded="false" signature="3942:4039" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="4041:4091" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="4148:4521" ph="..." />
+            <marker date="1484847944563" expanded="false" signature="4176:4194" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="4196:4502" ph="..." />
+            <marker date="1484847944563" expanded="false" signature="4246:4443" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="4445:4474" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="4539:4937" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="4558:4918" ph="..." />
+            <marker date="1484847944563" expanded="false" signature="4587:4701" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="4703:4898" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="4840:4877" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="5084:5141" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="5159:6020" ph="..." />
+            <marker date="1484847944563" expanded="false" signature="5188:5216" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="5218:5994" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="5237:5509" ph="..." />
+            <marker date="1484847944563" expanded="false" signature="5267:5342" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="5344:5489" ph="..." />
+            <marker date="1484847944563" expanded="false" signature="5377:5394" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="5528:5973" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="5549:5953" ph="..." />
+            <marker date="1484847944563" expanded="false" signature="5581:5668" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="5670:5733" ph="..." />
+            <marker date="1484847944563" expanded="false" signature="5764:5861" ph="..." />
+            <marker date="1484847944563" expanded="true" signature="5863:5931" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -774,22 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/services/adminService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/facade/adminFacade.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -834,24 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes/adminRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="e#856#1205#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/dao/baseDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/config/expressConfig.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -860,19 +924,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/dao/adminDao.js">
+    <entry file="file://$PROJECT_DIR$/lib/model/Brands.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="183">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/Brands.js">
+    <entry file="file://$PROJECT_DIR$/lib/facade/adminFacade.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        <state relative-caret-position="253">
+          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/services/adminService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dao/baseDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dao/adminDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes/adminRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+          <folding>
+            <element signature="e#856#1205#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
