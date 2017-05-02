@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6214d193-ed5c-4a59-bd59-72f7c45a4767" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/dao/purchaseOrderDao.js" afterPath="$PROJECT_DIR$/lib/dao/purchaseOrderDao.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/dao/stockDao.js" afterPath="$PROJECT_DIR$/lib/dao/stockDao.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/facade/purchaseFacade.js" afterPath="$PROJECT_DIR$/lib/facade/purchaseFacade.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/OrderItems.js" afterPath="$PROJECT_DIR$/lib/model/OrderItems.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/PurchaseOrders.js" afterPath="$PROJECT_DIR$/lib/model/PurchaseOrders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/purchaseRoutes.js" afterPath="$PROJECT_DIR$/lib/routes/purchaseRoutes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/stockRoutes.js" afterPath="$PROJECT_DIR$/lib/routes/stockRoutes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/orderItemService.js" afterPath="$PROJECT_DIR$/lib/services/orderItemService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/paymentService.js" afterPath="$PROJECT_DIR$/lib/services/paymentService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/purchaseOrderService.js" afterPath="$PROJECT_DIR$/lib/services/purchaseOrderService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/purchaseService.js" afterPath="$PROJECT_DIR$/lib/services/purchaseService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/appUtils.js" afterPath="$PROJECT_DIR$/lib/appUtils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/facade/stockFacade.js" afterPath="$PROJECT_DIR$/lib/facade/stockFacade.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,10 +61,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paymentService.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stockRoutes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/routes/stockRoutes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stockFacade.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/facade/stockFacade.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appUtils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/appUtils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="199" column="0" lean-forward="true" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paymentService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/services/paymentService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="300">
               <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding />
             </state>
@@ -87,39 +106,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="271">
               <caret line="70" column="9" lean-forward="false" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stockFacade.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/facade/stockFacade.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="purchaseOrderDao.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/dao/purchaseOrderDao.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-              <folding>
-                <element signature="e#651#833#0" expanded="false" />
-                <marker date="1493661632493" expanded="true" signature="1603:1608" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orderRoutes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/routes/orderRoutes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -201,11 +187,12 @@
         <option value="$PROJECT_DIR$/lib/model/OrderItems.js" />
         <option value="$PROJECT_DIR$/lib/services/orderItemService.js" />
         <option value="$PROJECT_DIR$/lib/dao/purchaseOrderDao.js" />
-        <option value="$PROJECT_DIR$/lib/facade/stockFacade.js" />
         <option value="$PROJECT_DIR$/lib/services/purchaseOrderService.js" />
         <option value="$PROJECT_DIR$/lib/services/purchaseService.js" />
         <option value="$PROJECT_DIR$/lib/services/paymentService.js" />
         <option value="$PROJECT_DIR$/lib/facade/purchaseFacade.js" />
+        <option value="$PROJECT_DIR$/lib/facade/stockFacade.js" />
+        <option value="$PROJECT_DIR$/lib/appUtils.js" />
       </list>
     </option>
   </component>
@@ -489,12 +476,12 @@
       <workItem from="1493105776170" duration="164000" />
       <workItem from="1493359258552" duration="38000" />
       <workItem from="1493622893651" duration="5000" />
-      <workItem from="1493624426870" duration="11627000" />
+      <workItem from="1493624426870" duration="13624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112540000" />
+    <option name="totallyTimeSpent" value="114537000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,7 +503,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960877" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3885449" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -536,7 +523,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="88" />
+      <option name="time" value="90" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -730,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/appUtils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="118" column="3" lean-forward="false" selection-start-line="118" selection-start-column="3" selection-end-line="118" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -809,14 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes/stockRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/model/OrderItems.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -837,14 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="53" column="15" lean-forward="true" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/facade/stockFacade.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -918,8 +882,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/paymentService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="300">
           <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes/stockRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/appUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="199" column="0" lean-forward="true" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/facade/stockFacade.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding />
         </state>
       </provider>
